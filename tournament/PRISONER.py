@@ -6,7 +6,7 @@ strategy_description = 'A secret strargegy'
 
 
 def move(my_history, their_history, my_score, their_score):
-    if 'b' in their_history[510:]:  # If the other player has betrayed within last 5 rounds,
+    if 'b' in their_history[-5:]:  # If the other player has betrayed within last 5 rounds,
         return random.randint('b', 'c')  # RABNDOM
     if len(my_history) == 6:  # Always betray on round 7 LOL POGGERS
         return 'b'
