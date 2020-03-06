@@ -2,7 +2,7 @@ from numpy import random
 
 team_name = 'Ethan and Oliver'
 strategy_name = 'Ethan and Olivers CRAAZY STRATEGY!!!!'
-strategy_description = 'A secret strargegy'
+strategy_description = 'A secret strargegy that is not weird tit for tat'
 
 
 def move(my_history, their_history, my_score, their_score, opponent_name):
